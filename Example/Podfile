@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'RateStarsSwift_Example', :exclusive => true do
+  pod 'RateStarsSwift', :path => '../'
+end
+
+target 'RateStarsSwift_Tests', :exclusive => true do
+  pod 'RateStarsSwift', :path => '../'
+
+  
+end
