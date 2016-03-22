@@ -32,7 +32,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'RateStarsSwift' => ['Pod/Assets/*.png']
   }
-  s.resources             = "Pod/Resources/Resources/*.xcassets"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
