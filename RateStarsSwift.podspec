@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = "RateStarsSwift"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RateStarsSwift."
+  s.summary          = "RateStarsSwift provides a rating view"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "RateStarsSwift provides a rating view, according to user tab on the stars, and present the selected image immediately, You can retrieve the selected value using your 'component.rating' var"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RateStarsSwift"
+  s.homepage         = "https://github.com/oguzman/RateStarsSwift"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "oguzman" => "a.omargc@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RateStarsSwift.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/oguzman/RateStarsSwift.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/ccabuto'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -33,6 +32,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'RateStarsSwift' => ['Pod/Assets/*.png']
   }
+  s.resources             = "Pod/Resources/Resources/*.xcassets"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

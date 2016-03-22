@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D58F886C8C316D132645684BA71BF2 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DD24A775078C1276131AB584D5917 /* RateView.swift */; };
+		28F5899848A5725DC623823BAFEF7684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		51275172168BECF40530D7B84ABC11F2 /* Pods-RateStarsSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B0474240543AF596AF0F53C78C8175 /* Pods-RateStarsSwift_Tests-dummy.m */; };
+		73CFD87211F7D35045F9AFE323761A23 /* Pods-RateStarsSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CBBFA6F31AB27C82A22461E8BF30DF /* Pods-RateStarsSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96014E285ABF9E47C5E11AAD95ED37EF /* Pods-RateStarsSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A82EFC43A42EA1F22BC05F98554FF52 /* Pods-RateStarsSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4E169AF48E51CBACB1B7A5F24905E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C851AA171CA1D89D00E5102B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8375A661CA1CFAF005621A8 /* Media.xcassets */; };
+		C851AA191CA1D8BA00E5102B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8375A661CA1CFAF005621A8 /* Media.xcassets */; };
+		C851AA1A1CA1D8CE00E5102B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8375A661CA1CFAF005621A8 /* Media.xcassets */; };
+		C851AA1C1CA1D8D900E5102B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8375A661CA1CFAF005621A8 /* Media.xcassets */; };
+		D0A076F77E66EA1D1D6835EA3549B699 /* RateStarsSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 561175B3DAD711782AB96FFC143D8D39 /* RateStarsSwift.bundle */; };
+		D185AF1740E82CDBB223B7E0E426F7DB /* RateStarsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D742BDF663CDDA583B36FD6FBBCA24 /* RateStarsSwift-dummy.m */; };
+		EE11DC5AB5CBEC316165C10E08FCE368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F4C28F8B567DABFAE2A184AF348E98AB /* RateStarsSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA00F31C274D9EB70E044F2F7946FEF /* RateStarsSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB41EA75C9FB16EDA8CB034C365363E2 /* Pods-RateStarsSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A5773A690D1EA985A8525FE7685B1 /* Pods-RateStarsSwift_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B4C30205DFB2402D4FD68B92ECB93E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB3B89E91AA75EB4E6F194C47C26B8E;
+			remoteInfo = RateStarsSwift;
+		};
+		1B0D9F1593F86942B84BAFA6FB491DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB3B89E91AA75EB4E6F194C47C26B8E;
+			remoteInfo = RateStarsSwift;
+		};
+		956973106171696EFC49E026D5F8CFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5DC5A986F2B52890AACC6EF88F76BD;
+			remoteInfo = "RateStarsSwift-RateStarsSwift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E440236CD6F3582F9A09A781A14AFF /* Pods-RateStarsSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateStarsSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0E84E3D2CD0E0611EAA9BE0BB532F7F0 /* Pods-RateStarsSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateStarsSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		186CCE5E400AD7D84E1E8FAD4BB207A4 /* Pods_RateStarsSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RateStarsSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E08A3801B35754CF4A42D078867E86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220B3D8AAE87A1480C017285C15149A6 /* Pods-RateStarsSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateStarsSwift_Example-resources.sh"; sourceTree = "<group>"; };
+		279B796872D40326D04F3E4F380CB451 /* Pods-RateStarsSwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateStarsSwift_Tests-resources.sh"; sourceTree = "<group>"; };
+		316A5773A690D1EA985A8525FE7685B1 /* Pods-RateStarsSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RateStarsSwift_Example-dummy.m"; sourceTree = "<group>"; };
+		39D38F77F3A2B026BE88B9B83634EB3A /* RateStarsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RateStarsSwift.modulemap; sourceTree = "<group>"; };
+		3A82EFC43A42EA1F22BC05F98554FF52 /* Pods-RateStarsSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RateStarsSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E434497BC0B7F871039A59230872E6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D6B369A7EF5AF0EC8A77B5E7D074C06 /* Pods-RateStarsSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateStarsSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA00F31C274D9EB70E044F2F7946FEF /* RateStarsSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateStarsSwift-umbrella.h"; sourceTree = "<group>"; };
+		4F697BE9C695745363D8829DBAEF5D17 /* Pods-RateStarsSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RateStarsSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		561175B3DAD711782AB96FFC143D8D39 /* RateStarsSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateStarsSwift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D74AF45476F431368B2007912A0FC7 /* RateStarsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RateStarsSwift.xcconfig; sourceTree = "<group>"; };
+		63BA163773369E309754113632FCA734 /* Pods_RateStarsSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RateStarsSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A724161806A98432F4A596A921FEBAC /* Pods-RateStarsSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RateStarsSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6E8E4DB016A2E4414239EBA04D551A6F /* Pods-RateStarsSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RateStarsSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7605789CD408F10EB94E0EAFFCA57330 /* Pods-RateStarsSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RateStarsSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		78820970ADE53F7943F5BAF263D4D83C /* RateStarsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RateStarsSwift-prefix.pch"; sourceTree = "<group>"; };
+		7C5F2E89386AA6D90801433BDA493161 /* Pods-RateStarsSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RateStarsSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81D742BDF663CDDA583B36FD6FBBCA24 /* RateStarsSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RateStarsSwift-dummy.m"; sourceTree = "<group>"; };
+		880A65159F023E2C7D04DEDAA6A6EAAC /* Pods-RateStarsSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RateStarsSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		909DD24A775078C1276131AB584D5917 /* RateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		983393F1E5EBC8BE6F7649B3BEAB10C8 /* Pods-RateStarsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateStarsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B1CBBFA6F31AB27C82A22461E8BF30DF /* Pods-RateStarsSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RateStarsSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8375A661CA1CFAF005621A8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		D5DF7BB7B192D121D3439048196ED8CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DFBC8521D1A408B05DA5F8C985BB1C /* Pods-RateStarsSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateStarsSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E66971BD3CF27C4F85CC88B95FCA38B4 /* Pods-RateStarsSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RateStarsSwift_Example.modulemap"; sourceTree = "<group>"; };
+		F5B0474240543AF596AF0F53C78C8175 /* Pods-RateStarsSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RateStarsSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		FADDA08BA5D73160B05F4BCBAA3C203D /* RateStarsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RateStarsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0666BC27D957EFB059F23AEAF4B9274B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4E169AF48E51CBACB1B7A5F24905E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEC7366DB2FB5116D78E8287DFDD947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F5899848A5725DC623823BAFEF7684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0B1CC94E37C203F263293D1AB74634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72DEF849D85FAF59E06A7E38E7A84A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE11DC5AB5CBEC316165C10E08FCE368 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2876C409B1A0A1699A5A0E32F7848E2A /* Pods-RateStarsSwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18E08A3801B35754CF4A42D078867E86 /* Info.plist */,
+				4F697BE9C695745363D8829DBAEF5D17 /* Pods-RateStarsSwift_Tests.modulemap */,
+				880A65159F023E2C7D04DEDAA6A6EAAC /* Pods-RateStarsSwift_Tests-acknowledgements.markdown */,
+				7C5F2E89386AA6D90801433BDA493161 /* Pods-RateStarsSwift_Tests-acknowledgements.plist */,
+				F5B0474240543AF596AF0F53C78C8175 /* Pods-RateStarsSwift_Tests-dummy.m */,
+				6A724161806A98432F4A596A921FEBAC /* Pods-RateStarsSwift_Tests-frameworks.sh */,
+				279B796872D40326D04F3E4F380CB451 /* Pods-RateStarsSwift_Tests-resources.sh */,
+				B1CBBFA6F31AB27C82A22461E8BF30DF /* Pods-RateStarsSwift_Tests-umbrella.h */,
+				4D6B369A7EF5AF0EC8A77B5E7D074C06 /* Pods-RateStarsSwift_Tests.debug.xcconfig */,
+				E2DFBC8521D1A408B05DA5F8C985BB1C /* Pods-RateStarsSwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-RateStarsSwift_Tests";
+			path = "Target Support Files/Pods-RateStarsSwift_Tests";
+			sourceTree = "<group>";
+		};
+		4BF4C633C626C7314165CFB61DCA3DD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				909DD24A775078C1276131AB584D5917 /* RateView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		553F3E74C4E711A2EBFC3AE4CA5C74D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				742EBB845F5DDD6B338112518381CAB7 /* RateStarsSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5620D6642270E673CD5431FA5511C592 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8774EEBD72B6A7293D34EA34A640BB00 /* Pods-RateStarsSwift_Example */,
+				2876C409B1A0A1699A5A0E32F7848E2A /* Pods-RateStarsSwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578991B9CE654BA558673CDD6E285F8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E434497BC0B7F871039A59230872E6E /* Info.plist */,
+				39D38F77F3A2B026BE88B9B83634EB3A /* RateStarsSwift.modulemap */,
+				57D74AF45476F431368B2007912A0FC7 /* RateStarsSwift.xcconfig */,
+				81D742BDF663CDDA583B36FD6FBBCA24 /* RateStarsSwift-dummy.m */,
+				78820970ADE53F7943F5BAF263D4D83C /* RateStarsSwift-prefix.pch */,
+				4DA00F31C274D9EB70E044F2F7946FEF /* RateStarsSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RateStarsSwift";
+			sourceTree = "<group>";
+		};
+		742EBB845F5DDD6B338112518381CAB7 /* RateStarsSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F9C632F6860420CE4A77662EE979EF88 /* Pod */,
+				578991B9CE654BA558673CDD6E285F8A /* Support Files */,
+			);
+			name = RateStarsSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				553F3E74C4E711A2EBFC3AE4CA5C74D5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D3680C5AD6C8B8C960F8CD55343797A9 /* Products */,
+				5620D6642270E673CD5431FA5511C592 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8774EEBD72B6A7293D34EA34A640BB00 /* Pods-RateStarsSwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D5DF7BB7B192D121D3439048196ED8CE /* Info.plist */,
+				E66971BD3CF27C4F85CC88B95FCA38B4 /* Pods-RateStarsSwift_Example.modulemap */,
+				6E8E4DB016A2E4414239EBA04D551A6F /* Pods-RateStarsSwift_Example-acknowledgements.markdown */,
+				7605789CD408F10EB94E0EAFFCA57330 /* Pods-RateStarsSwift_Example-acknowledgements.plist */,
+				316A5773A690D1EA985A8525FE7685B1 /* Pods-RateStarsSwift_Example-dummy.m */,
+				0E84E3D2CD0E0611EAA9BE0BB532F7F0 /* Pods-RateStarsSwift_Example-frameworks.sh */,
+				220B3D8AAE87A1480C017285C15149A6 /* Pods-RateStarsSwift_Example-resources.sh */,
+				3A82EFC43A42EA1F22BC05F98554FF52 /* Pods-RateStarsSwift_Example-umbrella.h */,
+				983393F1E5EBC8BE6F7649B3BEAB10C8 /* Pods-RateStarsSwift_Example.debug.xcconfig */,
+				03E440236CD6F3582F9A09A781A14AFF /* Pods-RateStarsSwift_Example.release.xcconfig */,
+			);
+			name = "Pods-RateStarsSwift_Example";
+			path = "Target Support Files/Pods-RateStarsSwift_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8375A631CA1CF84005621A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8375A661CA1CFAF005621A8 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C880E9981CA1C658001640F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8375A631CA1CF84005621A8 /* Resources */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3680C5AD6C8B8C960F8CD55343797A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186CCE5E400AD7D84E1E8FAD4BB207A4 /* Pods_RateStarsSwift_Example.framework */,
+				63BA163773369E309754113632FCA734 /* Pods_RateStarsSwift_Tests.framework */,
+				561175B3DAD711782AB96FFC143D8D39 /* RateStarsSwift.bundle */,
+				FADDA08BA5D73160B05F4BCBAA3C203D /* RateStarsSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C632F6860420CE4A77662EE979EF88 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C880E9981CA1C658001640F4 /* Resources */,
+				4BF4C633C626C7314165CFB61DCA3DD5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83EFFBEF77B802A892C0B2D68ECE0B90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C28F8B567DABFAE2A184AF348E98AB /* RateStarsSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53802F933995F19B9C051EF7531B697 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96014E285ABF9E47C5E11AAD95ED37EF /* Pods-RateStarsSwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD28D070BC310CB404A3FD4D15D92374 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CFD87211F7D35045F9AFE323761A23 /* Pods-RateStarsSwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D5DC5A986F2B52890AACC6EF88F76BD /* RateStarsSwift-RateStarsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B029A9D3583E77C122D5CCC7B66E36BE /* Build configuration list for PBXNativeTarget "RateStarsSwift-RateStarsSwift" */;
+			buildPhases = (
+				0648275837E29C1007EE562163C4A4BB /* Sources */,
+				BA0B1CC94E37C203F263293D1AB74634 /* Frameworks */,
+				C851AA1B1CA1D8D400E5102B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RateStarsSwift-RateStarsSwift";
+			productName = "RateStarsSwift-RateStarsSwift";
+			productReference = 561175B3DAD711782AB96FFC143D8D39 /* RateStarsSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3E108C4D185554731E3081207A3029CA /* Pods-RateStarsSwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043EE4A34BAC64C87A2460E4B5051DF8 /* Build configuration list for PBXNativeTarget "Pods-RateStarsSwift_Tests" */;
+			buildPhases = (
+				B718001E145E8A12025719D8F0BB6576 /* Sources */,
+				0666BC27D957EFB059F23AEAF4B9274B /* Frameworks */,
+				FD28D070BC310CB404A3FD4D15D92374 /* Headers */,
+				C851AA181CA1D8B400E5102B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02593061D7286A80A6363C108EE9EC62 /* PBXTargetDependency */,
+			);
+			name = "Pods-RateStarsSwift_Tests";
+			productName = "Pods-RateStarsSwift_Tests";
+			productReference = 63BA163773369E309754113632FCA734 /* Pods_RateStarsSwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CDA9C0651761F21D7641884357D049B /* Pods-RateStarsSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D1F7426B1215A7FF24A4733F63BD53F /* Build configuration list for PBXNativeTarget "Pods-RateStarsSwift_Example" */;
+			buildPhases = (
+				FEF5C6DEEDA7FEB8B6CE36A2C7BB33BE /* Sources */,
+				E72DEF849D85FAF59E06A7E38E7A84A5 /* Frameworks */,
+				F53802F933995F19B9C051EF7531B697 /* Headers */,
+				C851AA161CA1D89600E5102B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB0471F88644A5065333BE0F10C35F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-RateStarsSwift_Example";
+			productName = "Pods-RateStarsSwift_Example";
+			productReference = 186CCE5E400AD7D84E1E8FAD4BB207A4 /* Pods_RateStarsSwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEB3B89E91AA75EB4E6F194C47C26B8E /* RateStarsSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335C56888D6A3B22807179CFCC3B2364 /* Build configuration list for PBXNativeTarget "RateStarsSwift" */;
+			buildPhases = (
+				1E3F9DF88683C8530F4A39D13B1E5AD1 /* Sources */,
+				ADEC7366DB2FB5116D78E8287DFDD947 /* Frameworks */,
+				5B80E397DDF42C040FB28C416A684709 /* Resources */,
+				83EFFBEF77B802A892C0B2D68ECE0B90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9CAAE7B6DEE18BB6006D66C63D7773 /* PBXTargetDependency */,
+			);
+			name = RateStarsSwift;
+			productName = RateStarsSwift;
+			productReference = FADDA08BA5D73160B05F4BCBAA3C203D /* RateStarsSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D3680C5AD6C8B8C960F8CD55343797A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDA9C0651761F21D7641884357D049B /* Pods-RateStarsSwift_Example */,
+				3E108C4D185554731E3081207A3029CA /* Pods-RateStarsSwift_Tests */,
+				FEB3B89E91AA75EB4E6F194C47C26B8E /* RateStarsSwift */,
+				3D5DC5A986F2B52890AACC6EF88F76BD /* RateStarsSwift-RateStarsSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B80E397DDF42C040FB28C416A684709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C851AA1A1CA1D8CE00E5102B /* Media.xcassets in Resources */,
+				D0A076F77E66EA1D1D6835EA3549B699 /* RateStarsSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C851AA161CA1D89600E5102B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C851AA171CA1D89D00E5102B /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C851AA181CA1D8B400E5102B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C851AA191CA1D8BA00E5102B /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C851AA1B1CA1D8D400E5102B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C851AA1C1CA1D8D900E5102B /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0648275837E29C1007EE562163C4A4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3F9DF88683C8530F4A39D13B1E5AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185AF1740E82CDBB223B7E0E426F7DB /* RateStarsSwift-dummy.m in Sources */,
+				11D58F886C8C316D132645684BA71BF2 /* RateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718001E145E8A12025719D8F0BB6576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51275172168BECF40530D7B84ABC11F2 /* Pods-RateStarsSwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF5C6DEEDA7FEB8B6CE36A2C7BB33BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB41EA75C9FB16EDA8CB034C365363E2 /* Pods-RateStarsSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02593061D7286A80A6363C108EE9EC62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RateStarsSwift;
+			target = FEB3B89E91AA75EB4E6F194C47C26B8E /* RateStarsSwift */;
+			targetProxy = 1B0D9F1593F86942B84BAFA6FB491DCB /* PBXContainerItemProxy */;
+		};
+		CBB0471F88644A5065333BE0F10C35F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RateStarsSwift;
+			target = FEB3B89E91AA75EB4E6F194C47C26B8E /* RateStarsSwift */;
+			targetProxy = 0B4C30205DFB2402D4FD68B92ECB93E3 /* PBXContainerItemProxy */;
+		};
+		DD9CAAE7B6DEE18BB6006D66C63D7773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RateStarsSwift-RateStarsSwift";
+			target = 3D5DC5A986F2B52890AACC6EF88F76BD /* RateStarsSwift-RateStarsSwift */;
+			targetProxy = 956973106171696EFC49E026D5F8CFEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38154441FB53E237F3AF398222142E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D74AF45476F431368B2007912A0FC7 /* RateStarsSwift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RateStarsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4A1FCE1F52ABA50D3FF1784FC613EC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983393F1E5EBC8BE6F7649B3BEAB10C8 /* Pods-RateStarsSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RateStarsSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RateStarsSwift_Example/Pods-RateStarsSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RateStarsSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		61F74A229BB916E454A485B473F43B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DFBC8521D1A408B05DA5F8C985BB1C /* Pods-RateStarsSwift_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RateStarsSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RateStarsSwift_Tests/Pods-RateStarsSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RateStarsSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94CBCCE66285938EFDCE893A30B02D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E440236CD6F3582F9A09A781A14AFF /* Pods-RateStarsSwift_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RateStarsSwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RateStarsSwift_Example/Pods-RateStarsSwift_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RateStarsSwift_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94F10C03852FC92DA51E2DD3755A1BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D74AF45476F431368B2007912A0FC7 /* RateStarsSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RateStarsSwift/RateStarsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RateStarsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RateStarsSwift/RateStarsSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RateStarsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5AB3DA190D11E7C12256E803139C3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D74AF45476F431368B2007912A0FC7 /* RateStarsSwift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RateStarsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EFD714557155CB6B8C67FF75961278CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6B369A7EF5AF0EC8A77B5E7D074C06 /* Pods-RateStarsSwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RateStarsSwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RateStarsSwift_Tests/Pods-RateStarsSwift_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RateStarsSwift_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0F006BC839141F4F272C34F02D420B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D74AF45476F431368B2007912A0FC7 /* RateStarsSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RateStarsSwift/RateStarsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RateStarsSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RateStarsSwift/RateStarsSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RateStarsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043EE4A34BAC64C87A2460E4B5051DF8 /* Build configuration list for PBXNativeTarget "Pods-RateStarsSwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD714557155CB6B8C67FF75961278CF /* Debug */,
+				61F74A229BB916E454A485B473F43B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1F7426B1215A7FF24A4733F63BD53F /* Build configuration list for PBXNativeTarget "Pods-RateStarsSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1FCE1F52ABA50D3FF1784FC613EC4E /* Debug */,
+				94CBCCE66285938EFDCE893A30B02D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335C56888D6A3B22807179CFCC3B2364 /* Build configuration list for PBXNativeTarget "RateStarsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F10C03852FC92DA51E2DD3755A1BDD /* Debug */,
+				F0F006BC839141F4F272C34F02D420B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B029A9D3583E77C122D5CCC7B66E36BE /* Build configuration list for PBXNativeTarget "RateStarsSwift-RateStarsSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38154441FB53E237F3AF398222142E8B /* Debug */,
+				B5AB3DA190D11E7C12256E803139C3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
