@@ -1,0 +1,6 @@
+framework module RateStarsSwift {
+  umbrella header "RateStarsSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

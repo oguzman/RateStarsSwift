@@ -1,0 +1,14 @@
+PODS:
+  - RateStarsSwift (0.1.0)
+
+DEPENDENCIES:
+  - RateStarsSwift (from `../`)
+
+EXTERNAL SOURCES:
+  RateStarsSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RateStarsSwift: 83cc01f9d0e4631c79ede52a2042151e9cbdd81e
+
+COCOAPODS: 0.39.0
