@@ -22,7 +22,7 @@ pod "RateStarsSwift"
 
 ## Author
 
-oguzman, a.omargc@gmail.com
+oguzman, a.omargc@gmail.com Based in the original RateStars by gtts
 
 ## License
 
