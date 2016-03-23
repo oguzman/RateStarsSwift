@@ -15,6 +15,8 @@
 		9D4E169AF48E51CBACB1B7A5F24905E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		C80F798A1CA362F0009FE38C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80F79891CA362F0009FE38C /* Media.xcassets */; };
 		C80F798B1CA362F0009FE38C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80F79891CA362F0009FE38C /* Media.xcassets */; };
+		C80F798D1CA3654F009FE38C /* star_full.png in Resources */ = {isa = PBXBuildFile; fileRef = C80F798C1CA3654F009FE38C /* star_full.png */; };
+		C80F798E1CA3654F009FE38C /* star_full.png in Resources */ = {isa = PBXBuildFile; fileRef = C80F798C1CA3654F009FE38C /* star_full.png */; };
 		D0A076F77E66EA1D1D6835EA3549B699 /* RateStarsSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 561175B3DAD711782AB96FFC143D8D39 /* RateStarsSwift.bundle */; };
 		D185AF1740E82CDBB223B7E0E426F7DB /* RateStarsSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D742BDF663CDDA583B36FD6FBBCA24 /* RateStarsSwift-dummy.m */; };
 		EE11DC5AB5CBEC316165C10E08FCE368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -76,6 +78,7 @@
 		B1CBBFA6F31AB27C82A22461E8BF30DF /* Pods-RateStarsSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RateStarsSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C80F79891CA362F0009FE38C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C80F798C1CA3654F009FE38C /* star_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_full.png; sourceTree = "<group>"; };
 		D5DF7BB7B192D121D3439048196ED8CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2DFBC8521D1A408B05DA5F8C985BB1C /* Pods-RateStarsSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateStarsSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E66971BD3CF27C4F85CC88B95FCA38B4 /* Pods-RateStarsSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RateStarsSwift_Example.modulemap"; sourceTree = "<group>"; };
@@ -252,6 +255,7 @@
 		F9C632F6860420CE4A77662EE979EF88 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				C80F798C1CA3654F009FE38C /* star_full.png */,
 				C80F796C1CA34100009FE38C /* Assets */,
 				4BF4C633C626C7314165CFB61DCA3DD5 /* Classes */,
 			);
@@ -396,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80F798D1CA3654F009FE38C /* star_full.png in Resources */,
 				C80F798A1CA362F0009FE38C /* Media.xcassets in Resources */,
 				D0A076F77E66EA1D1D6835EA3549B699 /* RateStarsSwift.bundle in Resources */,
 			);
@@ -419,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80F798E1CA3654F009FE38C /* star_full.png in Resources */,
 				C80F798B1CA362F0009FE38C /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

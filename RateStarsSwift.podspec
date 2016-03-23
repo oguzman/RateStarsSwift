@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RateStarsSwift"
-  s.version          = "0.1.7"
+  s.version          = "0.1.2"
   s.summary          = "RateStarsSwift provides a rating view"
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'RateStarsSwift' => ['Pod/Assets/*.xcassets']
+    'RateStarsSwift' => ['Pod/*.xcassets', 'Pod/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
