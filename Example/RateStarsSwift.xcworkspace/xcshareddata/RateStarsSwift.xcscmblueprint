@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B01825D72DA400548E9B15340FDB916936F28200",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B01825D72DA400548E9B15340FDB916936F28200" : 0,
+    "F23B95896C0C83D4DF8ED0345DAD8F3F1403725C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "72F0A89C-91F5-442C-97B1-5BD4B66D0E24",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B01825D72DA400548E9B15340FDB916936F28200" : "RateStarsSwift\/",
+    "F23B95896C0C83D4DF8ED0345DAD8F3F1403725C" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RateStarsSwift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/RateStarsSwift.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/oguzman\/RateStarsSwift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B01825D72DA400548E9B15340FDB916936F28200"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/oguzman\/RateStarsSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F23B95896C0C83D4DF8ED0345DAD8F3F1403725C"
+    }
+  ]
+}
