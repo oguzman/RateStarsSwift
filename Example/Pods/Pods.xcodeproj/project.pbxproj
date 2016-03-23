@@ -77,7 +77,7 @@
 		983393F1E5EBC8BE6F7649B3BEAB10C8 /* Pods-RateStarsSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateStarsSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B1CBBFA6F31AB27C82A22461E8BF30DF /* Pods-RateStarsSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RateStarsSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C8375A661CA1CFAF005621A8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C8375A661CA1CFAF005621A8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../../../../Pod/Media.xcassets; sourceTree = "<group>"; };
 		D5DF7BB7B192D121D3439048196ED8CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2DFBC8521D1A408B05DA5F8C985BB1C /* Pods-RateStarsSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RateStarsSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E66971BD3CF27C4F85CC88B95FCA38B4 /* Pods-RateStarsSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RateStarsSwift_Example.modulemap"; sourceTree = "<group>"; };
@@ -166,6 +166,7 @@
 		578991B9CE654BA558673CDD6E285F8A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				C8375A661CA1CFAF005621A8 /* Media.xcassets */,
 				3E434497BC0B7F871039A59230872E6E /* Info.plist */,
 				39D38F77F3A2B026BE88B9B83634EB3A /* RateStarsSwift.modulemap */,
 				57D74AF45476F431368B2007912A0FC7 /* RateStarsSwift.xcconfig */,
@@ -232,22 +233,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C8375A631CA1CF84005621A8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C8375A661CA1CFAF005621A8 /* Media.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C880E9981CA1C658001640F4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C8375A631CA1CF84005621A8 /* Resources */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		D3680C5AD6C8B8C960F8CD55343797A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,7 +247,6 @@
 		F9C632F6860420CE4A77662EE979EF88 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C880E9981CA1C658001640F4 /* Resources */,
 				4BF4C633C626C7314165CFB61DCA3DD5 /* Classes */,
 			);
 			path = Pod;
