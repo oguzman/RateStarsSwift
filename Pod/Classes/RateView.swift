@@ -44,7 +44,7 @@ public class RateView: UIView {
             rateButton.setImage(filledStarImage, forState: .Selected)
             rateButton.setImage(filledStarImage, forState: [.Highlighted, .Selected])
             rateButton.adjustsImageWhenHighlighted = false
-            rateButton.addTarget(self, action:"ratingButtonTapped:", forControlEvents: .TouchUpInside)
+            rateButton.addTarget(self, action:#selector(ratingButtonTapped(_:)), forControlEvents: .TouchUpInside)
             ratingButtons += [rateButton]
             addSubview(rateButton)
         }
