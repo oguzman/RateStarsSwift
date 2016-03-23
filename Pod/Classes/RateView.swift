@@ -34,7 +34,8 @@ public class RateView: UIView {
     
     func addComponents()
     {
-        let bundle = NSBundle(forClass: self.classForCoder) // should to access the bundle for this class
+        //let bundle = NSBundle(forClass: self.classForCoder) // should to access the bundle for this class
+        let bundle = NSBundle(forClass: self.dynamicType)
         let filledStarImage = UIImage(named: "filledStar", inBundle: bundle, compatibleWithTraitCollection: nil)
         let emptyStarImage = UIImage(named: "emptyStar", inBundle: bundle, compatibleWithTraitCollection: nil)
         
