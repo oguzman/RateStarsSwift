@@ -34,10 +34,13 @@ public class RateView: UIView {
     
     func addComponents()
     {
-        //let bundle = NSBundle(forClass: self.classForCoder) // should to access the bundle for this class
-        let bundle = NSBundle(forClass: self.dynamicType)
-        let filledStarImage = UIImage(named: "filledStar", inBundle: bundle, compatibleWithTraitCollection: nil)
-        let emptyStarImage = UIImage(named: "emptyStar", inBundle: bundle, compatibleWithTraitCollection: nil)
+        var bundle = NSBundle(forClass: self.classForCoder)
+        if let bundlePath = NSBundle(forClass: self.classForCoder).resourcePath?.stringByAppendingString("/RateStarsSwift.bundle"), resourceBundle = NSBundle(path: bundlePath) {
+            bundle = resourceBundle
+        }
+        
+        let filledStarImage = UIImage(named: "star_full.png", inBundle: bundle, compatibleWithTraitCollection: nil)
+        let emptyStarImage = UIImage(named: "star_empty.png", inBundle: bundle, compatibleWithTraitCollection: nil)
         
         for _ in 0..<stars {
             let rateButton = UIButton()
